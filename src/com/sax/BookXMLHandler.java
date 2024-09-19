@@ -7,6 +7,9 @@ public class BookXMLHandler extends DefaultHandler {
     boolean author = false;
     boolean title = false;
     boolean description = false;
+
+    String s = "Изменение от Uliania!!!!";
+
     String currentCharacters;
     @Override
     public void startElement(String uri, String localName, String qName,
